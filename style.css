@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed; /* Replace with your image path */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-image: linear-gradient(to right, rgb(226, 98, 98) , rgb(245, 245, 74));
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 600px;
+}
+h1 {
+    margin-top: 0;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+#Input-field {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #07e3f7;
+    border-radius: 8px;
+}
+#add-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: solid rgb(33, 251, 254);
+    background-color: rgb(50, 244, 244);
+    color: rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button.remove-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+button.remove-btn:hover {
+    color: #c82333;
+}
